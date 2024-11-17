@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Canvas Blackout",
     "description": "Blacks out Canvas' website",
-    "version": "0.12.1",
+    "version": "0.12.3",
     "icons": {
         "16": "icons/icon16.png",
         "48": "icons/icon48.png",
