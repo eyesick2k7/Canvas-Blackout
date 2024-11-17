@@ -1,0 +1,246 @@
+:root {
+    /* Background Elements (black) */
+    --ic-brand-primary-darkened-5: #333333;
+    --ic-brand-primary-darkened-10: #222222;
+    --ic-brand-primary-darkened-15: #111111;
+    --ic-brand-primary-lightened-5: #4d4d4d;
+    --ic-brand-primary-lightened-10: #666666;
+    --ic-brand-primary-lightened-15: #808080;
+    --ic-brand-button--primary-bgd-darkened-5: #333333;
+    --ic-brand-button--primary-bgd-darkened-15: #222222;
+    --ic-brand-button--secondary-bgd-darkened-5: #333333;
+    --ic-brand-button--secondary-bgd-darkened-15: #222222;
+    --ic-brand-global-nav-bgd: #333333;
+    --ic-brand-global-nav-logo-bgd: #333333;
+    --ic-brand-Login-body-bgd-color: #333333;
+    --ic-brand-Login-body-bgd-shadow-color: #111111;
+    --ic-brand-global-nav-menu-item__badge-bgd: #333333;
+    --ic-brand-global-nav-menu-item__badge-bgd--active: #222222;
+
+    /* Text Elements (white) */
+    --ic-brand-font-color-dark-lightened-15: white;
+    --ic-brand-font-color-dark-lightened-30: white;
+    --ic-brand-font-color-dark: white;
+    --ic-brand-global-nav-menu-item__text-color: white;
+    --ic-brand-global-nav-menu-item__text-color--active: white;
+    --ic-brand-Login-Content-label-text-color: white;
+    --ic-brand-Login-Content-password-text-color: white;
+    --ic-brand-Login-footer-link-color: white;
+    --ic-brand-Login-footer-link-color-hover: white;
+    --ic-brand-Login-instructure-logo: white;
+
+    /* Button Elements (white text on primary darkened) */
+    --ic-brand-button--primary-text: white;
+    --ic-brand-button--secondary-text: white;
+}
+
+body {
+    background-color: black !important;
+    color: white !important;
+}
+
+header, nav, footer, .btn, .Button, select, input {
+    background-color: black !important;
+    color: white !important;
+}
+
+/* Scrollbar stuff */
+::-webkit-scrollbar {
+    background-color: black !important;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #262626 !important;
+    border-radius: 10px !important;
+    border: 3px solid #101010 !important;
+}
+::-webkit-scrollbar-track {
+    background-color: #101010 !important;
+}
+
+/* General Fixes */
+/*Courses body*/
+.item-group-container, .header-bar, .ig-header, .name, .content, .ig-row {
+    background-color: black !important;
+    color: white !important;
+}
+/*Links*/
+a {
+    color: rgb(49, 116, 192) !important;
+}
+a:hover {
+    color: rgb(6, 84, 173) !important;
+}
+/*Hovering over buttons*/
+a.Button:hover, a.view:hover, a.btn:hover, .btn:hover, Button:hover, .Button:hover {
+    background: rgb(255, 255, 255, .7) !important;
+    color: black !important;
+    border-color: rgb(49, 116, 192) !important;
+    border-radius: 3px !important;
+    border-width: 1px !important;
+}
+/*Paragraphs*/
+p {
+    color: white !important;
+}
+/*For icons*/
+svg, g, [class^="icon-"] {
+    fill: white !important;
+    color: white !important;
+}
+.icon-minimize {
+    fill: red !important;
+    color: red !important;
+}
+/*Bold font*/
+strong {
+    color: rgb(255, 196, 196) !important;
+}
+/*Popup boxes*/
+ul, [class$="-menuItem"], [class$="-menuItem__label"] {
+    background: black !important;
+    color: white !important;
+    border-color: white !important;
+}
+/*Logomark background*/
+.ic-app-header__logomark-container {
+    background-color: black !important;
+}
+/*Selected tab*/
+.ic-app-header__menu-list-item--active {
+    background: white !important;
+    color: black !important;
+}
+.ic-app-header__menu-list-item.ic-app-header__menu-list-item--active {
+    fill: black !important;
+    color: black !important;
+    border-color: #0073a7 !important;
+    border-width: 3px !important;
+    border-style: solid !important;
+}
+.ic-app-header__menu-list-item.ic-app-header__menu-list-item--active .ic-icon-svg {
+    fill: black !important;
+    color: black !important;
+}
+/*Navbar*/
+.ic-app-header__main-navagation {
+    background: #101010 !important;
+    color: white !important;
+}
+
+/* Dashboard stuff */
+.ic-Dashboard-header__layout, .ic-DashboardCard__header, .ic-DashboardCard__header_content {
+    background: black !important;
+}
+.ic-DashboardCard {
+    background: black !important;
+    box-shadow: 0 2px 5px rgba(102, 102, 102, 0.7) !important;
+}
+
+/* Popout nav trays */
+div.css-1dsl5sr-view, div.navigation-tray-container.courses-tray, div.css-1sr6v3o-text, .navigation-tray-container {
+    background-color: black !important;
+    color: white !important;
+}
+
+/* To Do assignment text */
+.css-1onamjj-view-listItem {
+    color: rgb(170, 170, 170) !important;
+}
+.css-2bn4c9-view--inlineBlock-inlineListItem {
+    color: rgb(201, 201, 201) !important;
+}
+
+/* "Recent Feedback" */
+.event-details__context, .event-details__context .strong {
+    color: rgb(170, 170, 170) !important;
+}
+
+/* Assignment stuff */
+.module-sequence-footer-content, .css-1f6zcte-baseButton__content {
+    background: black !important;
+    color: white !important;
+}
+.css-11xkk0o-baseButton__children:hover {
+    background: rgb(255, 255, 255, .7) !important;
+    color: black !important;
+}
+.Button--primary {
+    border-color: #0073a7 !important;
+}
+.css-1huky1y {
+    background: black !important;
+    color: white !important;
+}
+
+/* Calander stuff */
+.fc-head, .fc-body, .fc-widget-content, .context_list_context, .fc, .fc-next-button, .fc-prev-button, .fc-center h2 {
+    background: black !important;
+    color: white !important;
+}
+.fc-today {
+    background: #141414 !important;
+    color: white !important;
+}
+.fc-other-month {
+    color: #9b9b9b !important;
+}
+.btn.active {
+    background: white !important;
+    color: black !important;
+    border-color: #0073a7 !important;
+    border-width: 3px !important;
+}
+
+/* Inbox stuff */
+.css-14jozxf-view--inlineBlock, .css-9ca8iq-textInput, .css-2yaz9s-textInput__innerWrapper, .css-19i4e00-textInput__layout,
+.css-eavbef-baseButton__content, .css-1ul3du0-baseButton__content, .css-1y8unnl-baseButton__content, .css-1s30wwh-grid, .css-tx1xxs-view {
+    background: black !important;
+    color: white !important;
+}
+.css-1hm9ygg-checkboxFacade__facade {
+    background: #248012 !important;
+}
+
+/* All of the following is under "Account" */
+/*Notification stuff*/
+.css-4q3op-view-alert, [class$="colHeader"], [class$="-view-rowHeader"], [class$="-view-cell"], [class$="-toggleFacade__label"] {
+    background: black !important;
+    color: white !important;
+}
+[class$="-view-row"] {
+    border-bottom: 0.0625rem solid white !important;
+}
+/*Settings*/
+.css-bkpsp2-baseButton__content {
+    background: black !important;
+    color: white !important;
+    border-color: white !important;
+}
+.css-1loordt-view--block-baseButton:hover .css-bkpsp2-baseButton__content {
+    background: rgb(255, 255, 255, .7) !important;
+    color: black !important;
+    border-color: rgb(49, 116, 192) !important;
+}
+
+/* Grades */
+.ic-Action-header__Primary, tbody, thead, .ui-tabs-panel {
+    background: black !important;
+    color: white !important; 
+}
+.ui-tabs-active {
+    background: black !important;
+    color: white !important; 
+    border-color: white !important;
+}
+
+/* Syllabus */
+.day_date, .dates {
+    background: black !important;
+    color: white !important;
+}
+
+/* People */
+.rosterUser {
+    background-color: black !important;
+    color: white !important;
+}
