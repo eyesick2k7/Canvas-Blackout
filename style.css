@@ -197,8 +197,19 @@ div.css-1dsl5sr-view, div.navigation-tray-container.courses-tray, div.css-1sr6v3
     color: white !important;
     fill: white !important;
 }
-.tox-edit-area {
-    background: white !important;
+/*Text box*/
+.tox .tox-edit-area__iframe {
+    background: #909090 !important;
+}
+/*Auto-saved content*/
+.css-154i6x9-modal, .css-vgidk1-modalHeader, .css-1vbqxb5-modalFooter, .css-1inzeh6-view--flex-flex, .css-qfe6jw, .css-xgg4gk-view {
+    background: var(--background-color) !important;
+    color: white !important;
+}
+/*Submission details comments (paper view is unchangable)*/
+.comments, .ic-Input {
+    background: var(--background-color) !important;
+    color: white !important;
 }
 
 /* Calander stuff */
@@ -290,6 +301,10 @@ div.css-1dsl5sr-view, div.navigation-tray-container.courses-tray, div.css-1sr6v3
     color: white !important;
 }
 aside #right-side, table.summary tbody th, table.summary td {
+    background: var(--background-color) !important;
+    color: white !important;
+}
+.css-i72g1x-view, .css-1kdtqv3-tray__content, .signature {
     background: var(--background-color) !important;
     color: white !important;
 }
