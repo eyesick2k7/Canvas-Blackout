@@ -1,6 +1,7 @@
 :root {
     /* Variables */
     --background-color: rgb(0, 0, 0);
+    --text-color: white;
 
     /* The rest of the :root is for fallbacks */
     /*Background Elements (var(--background-color))*/
@@ -205,7 +206,7 @@ div.css-1dsl5sr-view, div.navigation-tray-container.courses-tray, div.css-1sr6v3
     background: var(--background-color) !important;
     color: white !important;
 }
-/*Submission details comments (paper view is unchangable)*/
+/*Submission details (paper view is unchangable)*/
 .comments, .ic-Input {
     background: var(--background-color) !important;
     color: white !important;
@@ -304,6 +305,19 @@ aside #right-side, table.summary tbody th, table.summary td {
     color: white !important;
 }
 .css-i72g1x-view, .css-1kdtqv3-tray__content, .signature {
+    background: var(--background-color) !important;
+    color: white !important;
+}
+/*Quiz Box*/
+#questions.assessing, .question .text, .question_points_holder, #last_saved_indicator {
+    background: var(--background-color) !important;
+    color: white !important;
+}
+
+
+
+/* Misc */
+.rubric_title, th {
     background: var(--background-color) !important;
     color: white !important;
 }
